@@ -36,8 +36,18 @@ if __name__ == "__main__":
                 encoded_string += "1"
             if i == "9":
                 encoded_string += "2"
-
-
-
-        print("Your password has been encoded and stored!")
         print(encoded_string)
+        print("Your password has been encoded and stored!")
+
+    if option == 2:
+        # i know how to do this but this is easier lol
+        # seamus added this functionality
+        print(f"The encoded password is {encoded_string}, and the original password is {password}")
+    if option == 3:
+        # seamus also added this functionality
+        break
+
+if __name__ == "__main__":
+        main()
+
+
